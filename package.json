@@ -1,11 +1,11 @@
 { 
-	"name" : "mock-kue",
-	"version": "0.0.3",
+  "name" : "mock-kue",
+  "version": "0.0.4",
   "description": "Mock kue in tests",
   "main" : "./mock-kue.js",
   "repository": {
-      "type": "git",
-      "url": "git@github.com:raweng/mock-kue.git"
+    "type": "git",
+    "url": "git@github.com:raweng/mock-kue.git"
   },
   "keywords": [
     "mock",
