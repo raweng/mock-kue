@@ -1,0 +1,14 @@
+{ 
+	"name" : "mock-kue",
+	"version": "0.0.1",
+  "description": "Mock kue in tests",
+  "main" : "./mock-kue.js",
+  "keywords": [
+    "mock",
+    "test",
+    "kue"
+  ],
+  "dependencies": {
+    "q": "*"
+  }
+}
