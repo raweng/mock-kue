@@ -59,4 +59,4 @@ kue.jobCount(); // -> '0'
 
 ## License
 
-Copyright (c) 2014 Nikhil Jain. This software is licensed under the [MIT License](http://github.com/raweng/mock-kue/raw/master/LICENSE).
+Copyright (c) 2014 built.io team. This software is licensed under the [MIT License](http://github.com/raweng/mock-kue/raw/master/LICENSE).
