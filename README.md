@@ -57,6 +57,17 @@ kue.clear();
 kue.jobCount(); // -> '0'
 ```
 
+## Clearing Jobs
+
+To get the access to created jobs, call the `.getJobs()` method:
+
+```javascript
+jobs.create(...).save();
+jobs.create(...).save();
+kue.jobCount(); // -> '2'
+kue.getJobs(); // -> rturns the array of created jobs
+```
+
 ## License
 
 Copyright (c) 2014 built.io team. This software is licensed under the [MIT License](http://github.com/raweng/mock-kue/raw/master/LICENSE).
