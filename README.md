@@ -57,7 +57,7 @@ kue.clear();
 kue.jobCount(); // -> '0'
 ```
 
-## Clearing Jobs
+## Inspecting Jobs
 
 To get the access to created jobs, call the `.getJobs()` method:
 
