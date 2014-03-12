@@ -1,6 +1,6 @@
 { 
   "name" : "mock-kue",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Mock kue in tests",
   "main" : "./mock-kue.js",
   "repository": {

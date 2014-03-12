@@ -10,6 +10,9 @@ kue.Job.prototype.save = function(fn){
 	this._state = this._state || 'inactive';
 	this.id = mockJobs.length;
 	mockJobs.push(this);
+	if(fn){
+		fn(this);
+	}
 }
 
 kue.prototype.process = function(type, n, fn){
