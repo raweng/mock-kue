@@ -56,3 +56,6 @@ var callback = function(job, deferred){
 			}
 	};
 }
+
+
+module.exports = kue;
