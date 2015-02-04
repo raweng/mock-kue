@@ -23,6 +23,10 @@ kue.jobCount = function(){
 	return mockJobs.length;
 }
 
+kue.getJobs = function () {
+    return mockJobs;
+};
+
 kue.drain = function(){
 	var promises = [];
 	var self = this;
