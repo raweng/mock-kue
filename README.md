@@ -65,7 +65,7 @@ To get the access to created jobs, call the `.getJobs()` method:
 jobs.create(...).save();
 jobs.create(...).save();
 kue.jobCount(); // -> '2'
-kue.getJobs(); // -> rturns the array of created jobs
+kue.getJobs(); // -> returns the array of created jobs
 ```
 
 ## License
