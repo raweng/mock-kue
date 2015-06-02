@@ -16,8 +16,10 @@ kue.Job.prototype.save = function(fn){
 }
 
 kue.prototype.process = function(type, n, fn){
+	if ('function' == typeof n) fn = n, n = 1;
+
 	jobsProcessor[type] = fn;
-}	
+}
 
 kue.jobCount = function(){
 	return mockJobs.length;
